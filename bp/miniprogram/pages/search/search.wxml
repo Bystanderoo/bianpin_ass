@@ -3,13 +3,6 @@
     <view class="mysearch"><text>hhhh</text></view>
   </view>
   <view class="mylist">
-    <view class="mylist-item">三基</view>
-    <view class="mylist-item">三基</view>
-    <view class="mylist-item">三基</view>
-    <view class="mylist-item">三基</view>
-    <view class="mylist-item">三基</view>
-    <view class="mylist-item">三基</view>
-    <view class="mylist-item">三基</view>
-    <view class="mylist-item">三基</view>
+    <view wx:for="{{items}}" wx:for-item="i" wx:key="this" class="mylist-item" bindtap="searchdetail">{{i.name}}({{i.type}})</view>
   </view>
 </view>

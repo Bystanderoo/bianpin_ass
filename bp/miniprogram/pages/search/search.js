@@ -1,11 +1,13 @@
 // miniprogram/pages/search/search.js
+const db = wx.cloud.database();
+const app = getApp();
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    items:[]
   },
 
   /**
@@ -26,8 +28,31 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    // this.readData();
+    var that = this;
+    wx.cloud.callFunction({
+      name:"readData",
+      success:function(res){
+        console.log(res);
+        that.setData({
+          items:res.result.data
+        })
+        console.log(that.data.items)
+      }
+    })
   },
+
+  // readData: function(){
+  //   var that = this;
+  //   db.collection('bianpin').get({
+  //     success: res=>{
+  //       that.setData({
+  //         items:res.data
+  //       })
+  //       console.log("items",res.data);
+  //     }
+  //   })
+  // },
 
   /**
    * 生命周期函数--监听页面隐藏

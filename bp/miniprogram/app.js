@@ -10,6 +10,12 @@ App({
       });
     }
 
-    this.globalData = {}
+    globalData:{
+      items:{}
+    }
+  },
+
+  onShow:function(options){
+    
   }
 })

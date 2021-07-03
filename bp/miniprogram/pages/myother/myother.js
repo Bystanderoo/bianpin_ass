@@ -1,4 +1,5 @@
 // miniprogram/pages/myother/myother.js
+// 小tips1一些接线小知识
 const db = wx.cloud.database()
 Page({
 

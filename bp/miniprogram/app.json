@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/detailMsg/detailMsg",
     "pages/search/search",
     "pages/myindex/myindex",
     "pages/index/index",
@@ -15,8 +16,8 @@
     "pages/openapi/cloudid/cloudid",
     "pages/im/im",
     "pages/im/room/room",
-    "pages/myother/myother",
-    "pages/detailMsg/detailMsg"
+    "pages/myother/myother"
+    
   ],
   "window": {
     "backgroundColor": "#679186",

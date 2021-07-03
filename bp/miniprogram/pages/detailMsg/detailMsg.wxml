@@ -1,2 +1,55 @@
-<!--miniprogram/pages/detailMeg/detailMsg.wxml-->
-<text>miniprogram/pages/detailMeg/detailMsg.wxml</text>
+<view class="detailmsg">
+  <view class="title">海利普</view>
+  <view class="mybody">
+    <view class="inerlist">
+      <view class="listitem">
+        <view class="item-title">型号</view>
+        <view class="item-content">HP</view>
+      </view>
+      <view class="listitem">
+        <view class="item-title">频率设定模式</view>
+        <view class="item-content">HP</view>
+      </view>
+      <view class="listitem">
+        <view class="item-title">运行控制模式</view>
+        <view class="item-content">HP</view>
+      </view>
+      <view class="listitem">
+        <view class="item-title">加速时间</view>
+        <view class="item-content">HP</view>
+      </view>
+      <view class="listitem">
+        <view class="item-title">减速时间</view>
+        <view class="item-content">HP</view>
+      </view>
+      <view class="listitem">
+        <view class="item-title">最大频率</view>
+        <view class="item-content">HP</view>
+      </view>
+      <view class="listitem">
+        <view class="item-title">上限频率</view>
+        <view class="item-content">HP</view>
+      </view>
+      <view class="listitem">
+        <view class="item-title">下限频率</view>
+        <view class="item-content">HP</view>
+      </view>
+      <view class="listitem">
+        <view class="item-title">停止方式</view>
+        <view class="item-content">HP</view>
+      </view>
+      <view class="listitem">
+        <view class="item-title">恢复出厂</view>
+        <view class="item-content">HP</view>
+      </view>
+      <view class="listitem">
+        <view class="item-title">其他</view>
+        <view class="item-content">HP</view>
+      </view>
+      <view class="listitem">
+        <view class="item-title">其他2</view>
+        <view class="item-content">HP</view>
+      </view>
+    </view>
+  </view>
+</view>
