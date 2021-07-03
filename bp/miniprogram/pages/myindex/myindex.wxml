@@ -1,0 +1,5 @@
+<!--miniprogram/pages/myindex/myindex.wxml-->
+<view class="mybg">
+  <button>语音</button>
+</view>
+

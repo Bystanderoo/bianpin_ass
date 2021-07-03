@@ -1,0 +1,8 @@
+.mybg{
+  background-color: #bbd4ce;
+  height: 100vh;
+  width: 100%;
+}
+.mysearch{
+  margin-left: 20rpx;
+}

@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/search/search",
+    "pages/myindex/myindex",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/myother/myother",
+    "pages/detailMsg/detailMsg"
+  ],
+  "window": {
+    "backgroundColor": "#679186",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#679186",
+    "navigationBarTitleText": "变频助手",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "cloud": true,
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#679186",
+    "list": [
+      {
+        "pagePath": "pages/myindex/myindex",
+        "text": "识别"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "查找"
+      },
+      {
+        "pagePath": "pages/myother/myother",
+        "text": "小tips"
+      },
+      {
+        "pagePath": "pages/detailMsg/detailMsg",
+        "text": "详情"
+      }
+    ]
+  }
+}

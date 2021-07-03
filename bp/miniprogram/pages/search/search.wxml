@@ -1,0 +1,15 @@
+<view class="mybg">
+  <view class="searchbar">
+    <view class="mysearch"><text>hhhh</text></view>
+  </view>
+  <view class="mylist">
+    <view class="mylist-item">三基</view>
+    <view class="mylist-item">三基</view>
+    <view class="mylist-item">三基</view>
+    <view class="mylist-item">三基</view>
+    <view class="mylist-item">三基</view>
+    <view class="mylist-item">三基</view>
+    <view class="mylist-item">三基</view>
+    <view class="mylist-item">三基</view>
+  </view>
+</view>

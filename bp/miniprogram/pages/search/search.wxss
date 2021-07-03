@@ -1,0 +1,38 @@
+.mybg{
+  background-color: #bbd4ce;
+  height: 100vh;
+  width: 100%;
+}
+.searchbar{
+  height: 120rpx;
+  background-color: #679186;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mysearch{
+  background-color: #fff;
+  height: 68rpx;
+  width: 95%;
+  border-radius: 18rpx;
+  display: flex;
+  align-items: center;
+}
+
+.mysearch text{
+  padding-left: 20rpx;
+  color: gray;
+  font-size: 26rpx;
+}
+
+.mylist-item{
+  border-bottom: solid #679186 1rpx;
+  height: 80rpx;
+  color: #123451;
+  font: 32rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20rpx;
+}
