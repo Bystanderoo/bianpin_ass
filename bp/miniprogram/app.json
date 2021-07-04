@@ -1,8 +1,9 @@
 {
   "pages": [
-    "pages/detailMsg/detailMsg",
-    "pages/search/search",
     "pages/myindex/myindex",
+    "pages/search/search",
+    "pages/detailMsg/detailMsg",
+    
     "pages/index/index",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
@@ -44,10 +45,6 @@
       {
         "pagePath": "pages/myother/myother",
         "text": "小tips"
-      },
-      {
-        "pagePath": "pages/detailMsg/detailMsg",
-        "text": "详情"
       }
     ]
   }

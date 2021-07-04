@@ -1,1 +1,4 @@
-/* miniprogram/pages/myother/myother.wxss */
+.contect{
+  position: absolute;
+  margin-top: 90vh;
+}

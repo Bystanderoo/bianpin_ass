@@ -1,2 +1,7 @@
-<!--miniprogram/pages/myother/myother.wxml-->
-<text>miniprogram/pages/myother/myother.wxml</text>
+<view>
+  <view>常用的公共脚</view>
+  <view>COM、GND</view>
+</view>
+<view class="contect">
+  如有错误请联系程序猿订正！
+</view>

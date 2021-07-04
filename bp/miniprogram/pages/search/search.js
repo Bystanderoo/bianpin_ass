@@ -21,38 +21,32 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+   
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    // this.readData();
     var that = this;
-    wx.cloud.callFunction({
-      name:"readData",
-      success:function(res){
-        console.log(res);
-        that.setData({
-          items:res.result.data
-        })
-        console.log(that.data.items)
-      }
+    
+    that.setData({
+      items:app.globalData.items
     })
+    //console.log("that.data.items",that.data.items)
+    
   },
 
-  // readData: function(){
-  //   var that = this;
-  //   db.collection('bianpin').get({
-  //     success: res=>{
-  //       that.setData({
-  //         items:res.data
-  //       })
-  //       console.log("items",res.data);
-  //     }
-  //   })
-  // },
+
+  searchdetail:function(event){
+    var that = this;
+    // console.log(event.currentTarget.dataset.myitem);
+    app.globalData.myitem = event.currentTarget.dataset.myitem;
+    //console.log("app.globalData.myitem",app.globalData.myitem);
+    wx.navigateTo({
+      url: '../detailMsg/detailMsg'
+    })
+  },
 
   /**
    * 生命周期函数--监听页面隐藏

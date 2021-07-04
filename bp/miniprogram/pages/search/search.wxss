@@ -29,7 +29,6 @@
 .mylist-item{
   border-bottom: solid #679186 1rpx;
   height: 80rpx;
-  color: #123451;
   font: 32rpx;
   display: flex;
   flex-direction: row;

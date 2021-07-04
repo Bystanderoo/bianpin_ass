@@ -1,12 +1,13 @@
 // miniprogram/pages/detailMeg/detailMsg.js
 const db = wx.cloud.database()
+const app = getApp();
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    items:[]
+    item:{}
   },
 
   /**
@@ -14,7 +15,10 @@ Page({
    */
   onLoad: function (options) {
     var that = this;
-    //that.readData();
+    this.setData({
+      item:app.globalData.myitem
+    })
+    //console.log("that.data.item",that.data.item);
   },
 
   /**
@@ -38,16 +42,5 @@ Page({
 
   },
 
-  readData: function(){
-    var that = this;
-    db.collection('bianpin').get({
-      success: res=>{
-        that.setData({
-          items:res
-        })
-        console.log("items",this.data.items);
-      }
-    })
-  }
 
 })

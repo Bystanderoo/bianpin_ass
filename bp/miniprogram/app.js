@@ -10,12 +10,22 @@ App({
       });
     }
 
-    globalData:{
-      items:{}
-    }
+    
+  },
+  globalData:{
+    items:{},
+    myitem:{}
   },
 
   onShow:function(options){
-    
+    var that = this;
+    wx.cloud.callFunction({
+      name:"readData",
+      success:function(res){
+        // console.log(res);
+        that.globalData.items=res.result.data;
+        //console.log("app.globalData.items",that.globalData.items)
+      }
+    })
   }
 })
